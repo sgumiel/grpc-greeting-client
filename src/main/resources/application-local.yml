@@ -1,0 +1,11 @@
+server:
+  port: 8081
+  servlet:
+    context-path: /
+
+grpc:
+  client:
+    greetingService:
+      address: static://localhost:8080
+      negotiation-type: PLAINTEXT
+
