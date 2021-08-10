@@ -15,8 +15,6 @@ public class GreetingRestRequest implements Serializable {
 
     private static final long serialVersionUID = -916166602138542842L;
 
-    private Integer id;
     private String name;
     private String city;
-    private String message;
 }
